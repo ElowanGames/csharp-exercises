@@ -246,3 +246,27 @@ public class Exercise10
 }
 
 */
+
+
+
+/*	Exercise 11: Write a C# program that takes a user-inputted age and prints "You look older than 20."
+
+using System;
+
+public class Exercise11
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input your age: ");
+         int age = Convert.ToInt32(Console.ReadLine());
+
+         // Output the "you look older" statement
+         
+         Console.WriteLine("You look older than {0}. ", age);
+    }
+}
+
+*/
+

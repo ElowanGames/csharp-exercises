@@ -72,3 +72,36 @@ public class Exercise04
 */
 
 
+
+/*	Exercise 5: Write a C# program to swap two user-inputted numbers.
+
+using System;
+
+public class Exercise05
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         System.Console.WriteLine("Input the first number: ");
+         var firstNum = Console.ReadLine();
+         System.Console.WriteLine("Input the second number: ");
+         var secondNum = Console.ReadLine();
+         
+         // Swap the numbers 
+         
+         var temp = firstNum;
+         firstNum = secondNum;
+         secondNum = temp;
+         
+         // Output the swapped results
+         
+         System.Console.WriteLine("After swapping: ");
+         System.Console.WriteLine("First number: {0}", firstNum);
+         System.Console.WriteLine("Second number: {0}", secondNum);
+    }
+}
+
+*/
+
+

@@ -270,3 +270,38 @@ public class Exercise11
 
 */
 
+
+
+/*	Exercise 12: Write a C# program that takes a user-inputted number and displays it four times in 
+	a row (separated by blank spaces), and then four times in the next row (with no separation). 
+	Do this two times: Use Console.Write, and then use {0}.
+
+using System;
+
+public class Exercise12
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the number: ");
+         int num = Convert.ToInt32(Console.ReadLine());
+
+         // Output the number using Console.Write
+         
+         Console.Write(num + " " + num + " " + num + " " + num + "\n");
+         Console.Write(num);
+         Console.Write(num);
+         Console.Write(num);
+         Console.Write(num);
+
+	// Output the number using {0}
+         
+         Console.WriteLine("\n{0} {0} {0} {0}", num);
+         Console.WriteLine("{0}{0}{0}{0}", num);
+    }
+}
+
+*/
+
+

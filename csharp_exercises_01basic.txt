@@ -192,7 +192,7 @@ public class Exercise08
 
 using System;
 
-public class Exercise08
+public class Exercise09
 {
     public static void Main( )
     {
@@ -217,3 +217,32 @@ public class Exercise08
 */
 
 
+
+/*	Exercise 10: Write a C# program that takes three user-inputted numbers (x,y,z) and prints
+	the output of (x+y)*z and x.y + y*z.
+
+using System;
+
+public class Exercise10
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the first number: ");
+         int firstNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the second number: ");
+         int secondNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the third number: ");
+         int thirdNum = Convert.ToInt32(Console.ReadLine());
+
+         // Output the arithmetic results
+         
+         Console.WriteLine("({0}+{1})*{2} is {3}, and {0}*{1} + {1}*{2} is {4}.",
+            firstNum, secondNum, thirdNum,
+            (firstNum+secondNum)*thirdNum,
+            firstNum*secondNum + secondNum*thirdNum);
+    }
+}
+
+*/

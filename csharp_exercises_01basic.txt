@@ -333,3 +333,31 @@ public class Exercise10
 */
 
 
+
+/*	Exercise 14: Write a C# program to convert from Celsius degrees to Kelvin and Fahrenheit. 
+
+using System;
+
+public class Exercise14
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the temperature in Celcius: ");
+         double tempCelcius = Convert.ToDouble(Console.ReadLine());
+         
+         // Convert Celcius to Kelvin and Fahrenheit
+         
+         double tempKelvin = tempCelcius + 273.15;
+         double tempFahrenheit = tempCelcius * 9/5 + 32;
+
+         // Output the number using different methods
+         
+         Console.WriteLine("Kelvin = {0}", tempKelvin);
+         Console.WriteLine("Fahrenheit = {0}", tempFahrenheit);
+    }
+}
+
+*/
+

@@ -1,0 +1,24 @@
+
+
+/*
+
+The following parts of this document contain the exercises from the website
+https://www.w3resource.com/csharp-exercises/basic/index.php
+each followed by their solution.
+
+*/
+
+
+
+/*	Exercise 1: Write a C# Sharp program to print Hello and your name in a separate line.
+
+public class Exercise1
+{
+    public static void Main( )
+    {
+         System.Console.WriteLine("Hello \nElowan");
+    }
+}
+
+*/
+

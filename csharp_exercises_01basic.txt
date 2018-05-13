@@ -162,3 +162,26 @@ public class Exercise07
 */
 
 
+
+/*	Exercise 8: Write a C# program that takes a user-inputted number and prints its multiplication table. 
+
+using System;
+
+public class Exercise08
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the number: ");
+         int num = Convert.ToInt32(Console.ReadLine());
+         
+         // Output the multiplication table
+         
+         for (int i = 1; i <= 10; i++)
+            Console.WriteLine("{0} x {1} = {2}", num, i, num*i);
+    }
+}
+
+*/
+

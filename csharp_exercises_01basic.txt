@@ -75,7 +75,7 @@ public class Exercise04
 
 /*	Exercise 5: Write a C# program to swap two user-inputted numbers.
 
-using System;
+using System;			// From this point on, no need to use "System." before "Console" functions
 
 public class Exercise05
 {
@@ -83,9 +83,9 @@ public class Exercise05
     {
         // Get user input
         
-         System.Console.WriteLine("Input the first number: ");
+         Console.WriteLine("Input the first number: ");
          var firstNum = Console.ReadLine();
-         System.Console.WriteLine("Input the second number: ");
+         Console.WriteLine("Input the second number: ");
          var secondNum = Console.ReadLine();
          
          // Swap the numbers 
@@ -96,9 +96,36 @@ public class Exercise05
          
          // Output the swapped results
          
-         System.Console.WriteLine("After swapping: ");
-         System.Console.WriteLine("First number: {0}", firstNum);
-         System.Console.WriteLine("Second number: {0}", secondNum);
+         Console.WriteLine("After swapping: ");
+         Console.WriteLine("First number: {0}", firstNum);
+         Console.WriteLine("Second number: {0}", secondNum);
+    }
+}
+
+*/
+
+
+
+/*	Exercise #6: Write a C# program to print the output of multiplication of three user-inputted numbers.
+
+using System;
+
+public class Exercise06
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the first number to multiply: ");
+         int firstNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the second number to multiply: ");
+         int secondNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the third number to multiply: ");
+         int thirdNum = Convert.ToInt32(Console.ReadLine());
+         
+         // Output the multiplied result
+         
+         Console.WriteLine("{0} x {1} x {2} = {3}", firstNum, secondNum, thirdNum, firstNum*secondNum*thirdNum);
     }
 }
 

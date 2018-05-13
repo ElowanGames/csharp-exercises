@@ -305,3 +305,31 @@ public class Exercise12
 */
 
 
+
+/*	Exercise 13: Write a C# program that takes a user-inputted number and displays a rectangle 
+	3 columns wide and 5 rows tall using that digit.
+
+using System;
+
+public class Exercise10
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the number: ");
+         int num = Convert.ToInt32(Console.ReadLine());
+
+         // Output the number using different methods
+         
+         Console.WriteLine("{0}{0}{0}", num);
+         Console.WriteLine("{0} {0}", num);
+         Console.WriteLine("{0} {0}", num);
+         Console.WriteLine("{0} {0}", num);
+         Console.WriteLine("{0}{0}{0}", num);
+    }
+}
+
+*/
+
+

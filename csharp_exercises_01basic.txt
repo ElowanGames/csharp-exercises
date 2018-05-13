@@ -132,3 +132,33 @@ public class Exercise06
 */
 
 
+
+/*	Exercise 7: Write a C# program to print on screen the output of adding, subtracting, multiplying 
+	and dividing of two user-inputted numbers.
+
+using System;
+
+public class Exercise07
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the first number: ");
+         int firstNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the second number: ");
+         int secondNum = Convert.ToInt32(Console.ReadLine());
+         
+         // Output the arithmetic results
+         
+         Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, firstNum+secondNum);
+         Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, firstNum-secondNum);
+         Console.WriteLine("{0} x {1} = {2}", firstNum, secondNum, firstNum*secondNum);
+         Console.WriteLine("{0} / {1} = {2}", firstNum, secondNum, firstNum/secondNum);
+         Console.WriteLine("{0} mod {1} = {2}", firstNum, secondNum, firstNum%secondNum);
+    }
+}
+
+*/
+
+

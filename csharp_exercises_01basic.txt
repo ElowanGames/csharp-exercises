@@ -185,3 +185,35 @@ public class Exercise08
 
 */
 
+
+
+/*	Exercise 9: Write a C# program that takes four user-inputted numbers to calculate and print 
+	the average.
+
+using System;
+
+public class Exercise08
+{
+    public static void Main( )
+    {
+        // Get user input
+        
+         Console.WriteLine("Input the first number: ");
+         int firstNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the second number: ");
+         int secondNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the third number: ");
+         int thirdNum = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input the fourth number: ");
+         int fourthNum = Convert.ToInt32(Console.ReadLine());
+         
+         // Output the average
+         
+         Console.WriteLine("The average of {0}, {1}, {2}, and {3} is equal to {4}. ", 
+            firstNum, secondNum, thirdNum, fourthNum, (firstNum+secondNum+thirdNum+fourthNum)/4);
+    }
+}
+
+*/
+
+

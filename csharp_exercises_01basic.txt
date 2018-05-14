@@ -361,3 +361,32 @@ public class Exercise14
 
 */
 
+
+
+/*	Exercise 15: Write a C# program to remove a specific character from a non-empty pre-inputted 
+	string using a user-inputted index of a character.
+
+using System;
+
+public class Exercise15
+{
+    public static void Main( )
+    {
+         // Get user input
+         
+         Console.WriteLine("The string will be 'w3resource'. Input your character index: ");
+         int indexNum = Convert.ToInt32(Console.ReadLine());
+         
+         // Remove character and output result
+         
+         string str = "w3resource";
+         string newStr = str.Remove(indexNum, 1);
+         
+         Console.WriteLine("The new string is: {0}", newStr);
+    }
+}
+
+*/
+
+
+

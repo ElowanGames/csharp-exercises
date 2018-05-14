@@ -364,7 +364,8 @@ public class Exercise14
 
 
 /*	Exercise 15: Write a C# program to remove a specific character from a non-empty pre-inputted 
-	string using a user-inputted index of a character.
+	string using a user-inputted index of a character. (Note: Original question was unclear and
+	actually didn't use any user input, but I left it in my answer.)
 
 using System;
 
@@ -387,6 +388,7 @@ public class Exercise15
 }
 
 */
+
 
 
 

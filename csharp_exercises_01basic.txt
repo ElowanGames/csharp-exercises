@@ -391,4 +391,31 @@ public class Exercise15
 
 
 
+/*	Exercise 16: Write a C# program to create a new string from a user-inputted string where 
+	the first and last characters change their positions.
+
+using System;
+
+public class Exercise16
+{
+    public static void Main( )
+    {
+         // Get user input
+         
+         Console.WriteLine("Input your string: ");
+         string oldStr = Console.ReadLine();
+         
+         // Swap first and last characters, output result
+         
+         char temp = oldStr[oldStr.Length-1];
+         string newStr1 = temp + oldStr.Remove(0, 1);
+         temp = oldStr[0];
+         string newStr2 = newStr1.Remove(newStr1.Length-1, 1) + temp;
+         
+         Console.WriteLine("The new string is: {0}", newStr2);
+    }
+}
+
+*/
+
 

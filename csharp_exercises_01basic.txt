@@ -512,3 +512,36 @@ public class Exercise19
 
 */
 
+
+
+/*	Exercise 20: Write a C# program to get the absolute value of the difference between two 
+	user-inputted numbers. Return double the absolute value of the difference if the first number 
+	is greater than the second number.
+
+using System;
+
+public class Exercise20
+{
+    public static void Main( )
+    {
+         // Get user input
+         Console.WriteLine("Input your first number: ");
+         int num1 = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input your second number: ");
+         int num2 = Convert.ToInt32(Console.ReadLine());
+         
+         // Find the absolute value of their difference
+         int num3 = num1-num2;
+         num3 = Math.Abs(num3);
+        
+         // If first number is greater than second number, double it
+         if (num1 > num2)
+            num3 *= 2;
+         
+         // Output
+         Console.WriteLine("Result of operation: {0}", num3);
+    }
+}
+
+*/
+

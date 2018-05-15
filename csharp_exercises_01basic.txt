@@ -534,12 +534,44 @@ public class Exercise20
          int num3 = num1-num2;
          num3 = Math.Abs(num3);
         
-         // If first number is greater than second number, double it
+         // If first number is greater than second number, double the difference
          if (num1 > num2)
             num3 *= 2;
          
          // Output
          Console.WriteLine("Result of operation: {0}", num3);
+    }
+}
+
+*/
+
+
+
+/*	Exercise 21: Write a C# program to check the sum of two user-inputted integers and 
+	return true if one of the integers is 20 or if their sum is 20.
+
+using System;
+
+public class Exercise20
+{
+    public static void Main( )
+    {
+         // Get user input
+         Console.WriteLine("Input your first number: ");
+         int num1 = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input your second number: ");
+         int num2 = Convert.ToInt32(Console.ReadLine());
+         
+         // Find the sum
+         int num3 = num1+num2;
+        
+         // If either number or their sum is 20, return true
+         bool op = false;
+         if (num1 == 20 || num2 == 20 || num3 == 20)
+            op = true;
+         
+         // Output
+         Console.WriteLine("Result of operation: {0}", op);
     }
 }
 

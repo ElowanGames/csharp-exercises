@@ -552,7 +552,7 @@ public class Exercise20
 
 using System;
 
-public class Exercise20
+public class Exercise21
 {
     public static void Main( )
     {
@@ -583,7 +583,7 @@ public class Exercise20
 
 using System;
 
-public class Exercise20
+public class Exercise22
 {
     public static void Main( )
     {
@@ -598,6 +598,28 @@ public class Exercise20
         
          // Output
          Console.WriteLine("Number was within 20 of either 100 or 200: {0}", inRange);
+    }
+}
+
+*/
+
+
+
+/*	Exercise 23: Write a C# program to convert a user-inputted string into lowercase.
+
+using System;
+
+public class Exercise23
+{
+    public static void Main( )
+    {
+         // Get user input
+         Console.WriteLine("Input your string: ");
+         string oldStr = Console.ReadLine();
+         
+         // Output lowercase string
+         string newStr = oldStr.ToLower();
+         Console.WriteLine("The lowercase string is: {0}", newStr);
     }
 }
 

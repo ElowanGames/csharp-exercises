@@ -425,7 +425,7 @@ public class Exercise16
 
 using System;
 
-public class Exercise1
+public class Exercise17
 {
     public static void Main( )
     {
@@ -440,6 +440,42 @@ public class Exercise1
          string newStr = temp + oldStr + temp;
          
          Console.WriteLine("The new string is: {0}", newStr);
+    }
+}
+
+*/
+
+
+
+/*	Exercise 18: Write a C# program to check two user-inputted integers and return true if 
+	one is negative and one is positive.
+
+using System;
+
+public class Exercise18
+{
+    public static void Main( )
+    {
+         // Get user input
+         
+         Console.WriteLine("Input your first number: ");
+         int num1 = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input your second number: ");
+         int num2 = Convert.ToInt32(Console.ReadLine());
+         
+         // Find if one is negative and one is positive
+         
+         bool negPos = false;
+         
+         if (num1 > 0)
+            if (num2 < 0)
+                negPos = true;
+        
+        if (num1 < 0)
+            if (num2 > 0)
+                negPos = true;
+         
+         Console.WriteLine("Check if one is negative and one is positive: {0}", negPos);
     }
 }
 

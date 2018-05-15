@@ -419,3 +419,29 @@ public class Exercise16
 */
 
 
+
+/*	Exercise 17: Write a C# program to create a new string from a user-inputted string 
+	(length 1 or more) where the first character is added at the front and back.
+
+using System;
+
+public class Exercise1
+{
+    public static void Main( )
+    {
+         // Get user input
+         
+         Console.WriteLine("Input your string: ");
+         string oldStr = Console.ReadLine();
+         
+         // Add first character to beginning and end, output result
+         
+         char temp = oldStr[0];
+         string newStr = temp + oldStr + temp;
+         
+         Console.WriteLine("The new string is: {0}", newStr);
+    }
+}
+
+*/
+

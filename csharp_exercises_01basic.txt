@@ -481,3 +481,34 @@ public class Exercise18
 
 */
 
+
+
+/*	Exercise 19: Write a C# program to compute the sum of two user-inputted integers.
+	If the two integers are equal, then return the triple of their sum instead.
+
+using System;
+
+public class Exercise19
+{
+    public static void Main( )
+    {
+         // Get user input
+         Console.WriteLine("Input your first number: ");
+         int num1 = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Input your second number: ");
+         int num2 = Convert.ToInt32(Console.ReadLine());
+         
+         // Find their sum
+         int num3 = num1+num2;
+        
+         // Find the triple of their sum if the numbers are the same
+         if (num1 == num2)
+            num3 *= 3;
+         
+         // Output
+         Console.WriteLine("Result of summing: {0}", num3);
+    }
+}
+
+*/
+

@@ -577,3 +577,29 @@ public class Exercise20
 
 */
 
+
+
+/*	Exercise 22: Write a C# program to check if a user-inputted integer is within 20 of 100 or 200.
+
+using System;
+
+public class Exercise20
+{
+    public static void Main( )
+    {
+         // Get user input
+         Console.WriteLine("Input your number: ");
+         int num = Convert.ToInt32(Console.ReadLine());
+         
+         // Find if the number is within 20 of 100 or 200
+         bool inRange = false;
+         if ((num>80 && num<120) || (num>180 && num<220))
+            inRange = true;
+        
+         // Output
+         Console.WriteLine("Number was within 20 of either 100 or 200: {0}", inRange);
+    }
+}
+
+*/
+
